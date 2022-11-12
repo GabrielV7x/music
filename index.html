@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>test</h1>
+
+  <div>
+    <p onclick="showFavorite(this)" class="none" data-card="Dark magician">Yami Yugi</p>
+  </div>
+
+  <script>
+    const showFavorite = (card) => {
+      const favoriteCard = card.getAttribute("data-card")
+      card.classList.add("bg-yellow")
+      alert(favoriteCard)
+      // const charClass = card.
+
+
+      // element.classList.add("red");
+    }
+  </script>
+</body>
+</html>
