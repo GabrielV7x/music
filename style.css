@@ -5,3 +5,11 @@ h1 {
 .bg-yellow {
   background-color: yellow;
 }
+
+.none {
+  visibility: hidden;
+}
+
+.display {
+  visibility: visible;
+}
